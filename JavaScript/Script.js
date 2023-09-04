@@ -96,7 +96,7 @@ console.log("Remove menu profile is working!")
 
 
 new Typewriter('#typewriter', {
-  strings: ['Kush Dwivedi', 'Full Stack Developer ', 'Computer Science Enginner', ''],
+  strings: ['Kush Dwivedi', 'Full Stack Developer ', 'Studying Computer Science and Enginner'],
   autoStart: true,
   loop: true,
   cursor: "|"
