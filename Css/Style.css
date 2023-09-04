@@ -114,9 +114,10 @@ body.dark-theme {
 .nav__btns {
   display: flex;
   align-items: center;
-  padding-left: var(--mb-0-5);
+  padding-left:1px;
+  padding-right: 11px;
   margin: 0;
-  margin-top: -5px;
+  margin-top: -11px;
   gap: var(--mb-0-75);
 }
 
@@ -251,7 +252,7 @@ img {
 
 /* ===================== NAV STYLING ================== */
 .nav {
-  max-width: 968px;
+  max-width: inherit;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
@@ -282,6 +283,7 @@ img {
 
 .navbar-brand {
   font-family: var(--robotomono-font);
+  padding-bottom: 1.1rem;
 }
 
 @media screen and (max-width: 768px) {
